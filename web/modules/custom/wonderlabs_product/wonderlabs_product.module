@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Wonderlabs Product module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+ /**
+  * Implements hook_theme().
+  */
+ function wonderlabs_product_theme() {
+   return [
+     'node__product' => [
+       'template' => 'node--product',
+       'base hook' => 'node'
+     ],
+     
+     'block__wonderlabs_product_qr_code'=> [
+       'template' => 'block--wonderlabs-product-qr-code',
+       'base hook' => 'block'
+     ],
+   ];
+ }

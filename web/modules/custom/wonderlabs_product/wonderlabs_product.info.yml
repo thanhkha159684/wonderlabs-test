@@ -1,0 +1,6 @@
+name: Wonderlabs Product
+type: module
+description: Provide functionality for custom product content
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9

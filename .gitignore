@@ -1,0 +1,4 @@
+vendor
+web/sites/*/settings.local.php
+web/sites/*/local.service.xml
+web/sites/*/files
