@@ -4,12 +4,14 @@ For setup demo website, go to root website and running composer
 ```bash
 composer install
 ```
-Enable theme botstrap (Which have sidebar show we can display QR code)
+Enable theme botstrap (Which have sidebar so we can display QR code)
+
 Enable module wonderlabs_product
 ```bash
 drush en -y wonderlabs_product
 ```
 Enable block Wonderlabs QR code on Sidebar region
+
 Then clear cache
 ```bash
 drush cr
