@@ -4,7 +4,7 @@ For setup demo website, go to root website and running composer
 ```bash
 composer install
 ```
-Enable bootstrap theme (Whichsupport sidebar so we can display QR code)
+Enable bootstrap theme (Which support sidebar so we can display QR code)
 
 Enable module wonderlabs_product
 ```bash
